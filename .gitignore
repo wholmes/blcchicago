@@ -1,0 +1,10 @@
+dist/
+*.zip
+.DS_Store
+.sw-*.html
+.sw-*.txt
+
+# Local member export — contains PII (emails, phones, addresses).
+# Keep out of public remotes unless explicitly approved.
+data/members-export.csv
+.cursor/skills/blc-wp-membership-theme/assets/members-export.csv

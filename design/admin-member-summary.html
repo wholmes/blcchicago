@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Member summary — BLC Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="admin-app">
+
+  <div class="admin-app__frame">
+    <aside class="admin-sidebar" aria-label="Admin navigation">
+      <div class="admin-sidebar__brand">
+        <img src="assets/blc-logo.png" alt="BLC" width="72" height="28">
+        <span>Admin</span>
+      </div>
+      <nav class="admin-sidebar__nav">
+        <a href="#" class="is-active">Members</a>
+        <a href="#">Events</a>
+        <a href="#">Finances</a>
+        <a href="#">Communication</a>
+        <a href="#">Website</a>
+        <a href="#">Settings</a>
+      </nav>
+    </aside>
+
+    <div class="admin-main">
+      <header class="admin-topbar">
+        <nav class="admin-tabs" aria-label="Members sections">
+          <a href="#" class="is-active" aria-current="page">Summary</a>
+          <a href="#">List</a>
+          <a href="#">Saved searches</a>
+          <a href="#">Reports</a>
+          <a href="#">Levels</a>
+          <a href="#">Groups</a>
+        </nav>
+      </header>
+
+      <main class="admin-content">
+        <header class="admin-content__head">
+          <h1>Member list</h1>
+          <div class="admin-toolbar">
+            <button type="button" class="btn btn--outline btn--sm">Add member</button>
+            <button type="button" class="btn btn--outline btn--sm">Export all</button>
+            <button type="button" class="btn btn--outline btn--sm">Email all members</button>
+          </div>
+        </header>
+
+        <div class="admin-subtabs" role="tablist">
+          <a href="#" class="is-active" role="tab" aria-selected="true">Summary</a>
+          <a href="#" role="tab">Keyword search</a>
+          <a href="#" role="tab">Advanced search</a>
+          <a href="#" role="tab">Saved searches</a>
+        </div>
+
+        <div class="admin-grid">
+          <section class="admin-panel" aria-labelledby="summary-heading">
+            <h2 id="summary-heading" class="admin-panel__title">Membership by level</h2>
+            <p class="admin-panel__meta">Live counts from Paid Memberships Pro · Updated Aug 28, 2026, 7:22 AM</p>
+
+            <div class="summary-table-wrap">
+              <table class="summary-table">
+                <thead>
+                  <tr>
+                    <th rowspan="2" scope="col">Level</th>
+                    <th rowspan="2" scope="col">Total<br><span class="summary-table__sub">(Bundles)</span></th>
+                    <th rowspan="2" scope="col">Active</th>
+                    <th rowspan="2" scope="col">Renewal<br>overdue</th>
+                    <th rowspan="2" scope="col">Lapsed</th>
+                    <th colspan="3" scope="colgroup">Pending</th>
+                    <th colspan="2" scope="colgroup">New in last</th>
+                  </tr>
+                  <tr>
+                    <th scope="col">New</th>
+                    <th scope="col">Renewal</th>
+                    <th scope="col">Level change</th>
+                    <th scope="col">7 days</th>
+                    <th scope="col">30 days</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Established Leader</th>
+                    <td>72 <span class="summary-table__bundle">(18)</span></td>
+                    <td><a href="#">37</a></td>
+                    <td><a href="#">31</a></td>
+                    <td><a href="#">33</a></td>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">1</a></td>
+                    <td>—</td>
+                    <td><a href="#">2</a></td>
+                    <td><a href="#">5</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Vanguard Leader</th>
+                    <td>42 <span class="summary-table__bundle">(4)</span></td>
+                    <td><a href="#">13</a></td>
+                    <td><a href="#">24</a></td>
+                    <td><a href="#">28</a></td>
+                    <td><a href="#">1</a></td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td><a href="#">1</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Civic &amp; Community Leader</th>
+                    <td>34 <span class="summary-table__bundle">(2)</span></td>
+                    <td><a href="#">19</a></td>
+                    <td><a href="#">11</a></td>
+                    <td><a href="#">13</a></td>
+                    <td><a href="#">2</a></td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">3</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Corporate Leader</th>
+                    <td>25 <span class="summary-table__bundle">(17)</span></td>
+                    <td><a href="#">21</a></td>
+                    <td><a href="#">7</a></td>
+                    <td><a href="#">4</a></td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td><a href="#">1</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Provisional Event Invitee</th>
+                    <td>16</td>
+                    <td><a href="#">16</a></td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td><a href="#">3</a></td>
+                    <td><a href="#">6</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Sustained Leader</th>
+                    <td>13 <span class="summary-table__bundle">(12)</span></td>
+                    <td><a href="#">7</a></td>
+                    <td><a href="#">7</a></td>
+                    <td><a href="#">6</a></td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Board Member</th>
+                    <td>9</td>
+                    <td><a href="#">9</a></td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Internal Office</th>
+                    <td>9</td>
+                    <td><a href="#">9</a></td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Strategic Partner</th>
+                    <td>1</td>
+                    <td><a href="#">1</a></td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Lead Partner Pioneers</th>
+                    <td>0</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                    <td>—</td>
+                  </tr>
+                  <tr class="summary-table__total">
+                    <th scope="row">Total</th>
+                    <td>221 <span class="summary-table__bundle">(29)</span></td>
+                    <td>132</td>
+                    <td>80</td>
+                    <td>84</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td>16</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p class="admin-note">Counts link to filtered member lists in WordPress admin (PMPro + BLC Membership Summary plugin).</p>
+          </section>
+
+          <aside class="admin-panel admin-panel--email" aria-labelledby="email-heading">
+            <h2 id="email-heading" class="admin-panel__title">Email this summary</h2>
+            <p class="admin-panel__meta">Automatic delivery to staff inboxes. Add as many addresses as you need.</p>
+
+            <form class="email-delivery-form" action="#" method="post">
+              <fieldset class="email-delivery-form__field">
+                <legend>Schedule</legend>
+                <label class="radio-pill">
+                  <input type="radio" name="schedule" value="daily">
+                  <span>Daily · 7:00 AM CT</span>
+                </label>
+                <label class="radio-pill">
+                  <input type="radio" name="schedule" value="weekly" checked>
+                  <span>Weekly · Monday 7:00 AM CT</span>
+                </label>
+                <label class="radio-pill">
+                  <input type="radio" name="schedule" value="monthly">
+                  <span>Monthly · 1st at 7:00 AM CT</span>
+                </label>
+              </fieldset>
+
+              <div class="email-delivery-form__field">
+                <label for="subscriber-list">Subscribers</label>
+                <ul class="subscriber-list" id="subscriber-list">
+                  <li>
+                    <span>membership@blcchicago.com</span>
+                    <button type="button" class="subscriber-list__remove" aria-label="Remove membership@blcchicago.com">×</button>
+                  </li>
+                  <li>
+                    <span>finance@blcchicago.com</span>
+                    <button type="button" class="subscriber-list__remove" aria-label="Remove finance@blcchicago.com">×</button>
+                  </li>
+                  <li>
+                    <span>whitt@example.com</span>
+                    <button type="button" class="subscriber-list__remove" aria-label="Remove whitt@example.com">×</button>
+                  </li>
+                </ul>
+                <div class="subscriber-add">
+                  <input type="email" id="new-subscriber" placeholder="Add email address" autocomplete="email">
+                  <button type="button" class="btn btn--outline btn--sm">Add</button>
+                </div>
+              </div>
+
+              <label class="checkbox-row">
+                <input type="checkbox" name="send_now" value="1">
+                Send a test report now after saving
+              </label>
+
+              <div class="email-delivery-form__actions">
+                <button type="submit" class="btn btn--coral">Save subscribers</button>
+                <button type="button" class="btn btn--outline">Send test now</button>
+              </div>
+            </form>
+
+            <p class="admin-note">Last sent: Aug 28, 2026, 7:00 AM CT to 3 recipients.</p>
+          </aside>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <nav class="proto-bar" aria-label="Prototype pages">
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="events.html">Events</a>
+    <a href="event.html">Lakeside Chat</a>
+    <a href="leadership.html">Leadership</a>
+    <a href="corporate-sponsorship.html">Sponsorship</a>
+    <a href="directory.html">Directory</a>
+    <a href="members-directory.html">Members</a>
+    <a href="member.html">Profile</a>
+    <a href="join.html">Join</a>
+    <a href="paywall.html">Paywall</a>
+    <a href="articles.html">Articles</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin-member-summary.html" aria-current="page">Admin summary</a>
+  </nav>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

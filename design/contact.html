@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Business Leadership Council</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="site-header-group">
+    <div class="member-utility-bar">
+      <div class="container member-utility-bar__inner">
+        <p class="member-utility-bar__text">BLC members — <a href="login.html">Log in</a> for your directory, events, and profile.</p>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html" aria-label="Business Leadership Council home">
+          <img src="assets/blc-logo.png" alt="BLC">
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav class="nav" id="site-nav">
+          <a href="index.html">Home</a>
+          <a href="leadership.html">Leadership</a>
+          <a href="corporate-sponsorship.html">Sponsorship</a>
+          <a href="events.html">Events</a>
+          <a href="directory.html">Directory</a>
+          <a href="members-directory.html">Members</a>
+          <a href="articles.html">Articles</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+          <div class="header-actions">
+            <a class="nav__login" href="login.html">Log in</a>
+            <a class="nav__cta" href="join.html">Become a Member</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <main>
+    <header class="page-hero page-hero--brand">
+      <div class="container page-hero__inner reveal">
+        <p class="section__eyebrow">Get in touch</p>
+        <h1>Connect with BLC</h1>
+        <p>Questions about membership, sponsorship, events, or partnering with Chicago’s premier Black business organization — reach our team and we’ll follow up.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container contact-layout reveal">
+        <div class="contact-panel">
+          <h2>Send a message</h2>
+          <p class="contact-panel__lead">Formidable Forms will deliver submissions to the BLC inbox in production. This prototype posts locally only.</p>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="contact-form__row">
+              <label for="contact-first">
+                First name
+                <input id="contact-first" name="first_name" type="text" autocomplete="given-name" required>
+              </label>
+              <label for="contact-last">
+                Last name
+                <input id="contact-last" name="last_name" type="text" autocomplete="family-name" required>
+              </label>
+            </div>
+
+            <label for="contact-email">
+              Email
+              <input id="contact-email" name="email" type="email" autocomplete="email" required>
+            </label>
+
+            <label for="contact-org">
+              Organization
+              <input id="contact-org" name="organization" type="text" autocomplete="organization">
+            </label>
+
+            <label for="contact-phone">
+              Phone <span class="contact-form__optional">(optional)</span>
+              <input id="contact-phone" name="phone" type="tel" autocomplete="tel">
+            </label>
+
+            <label for="contact-topic">
+              How can we help?
+              <select id="contact-topic" name="topic" required>
+                <option value="">Select a topic</option>
+                <option value="membership">Membership &amp; joining BLC</option>
+                <option value="sponsorship">Corporate sponsorship &amp; Lead Partner Program</option>
+                <option value="events">Events &amp; programming</option>
+                <option value="directory">Member directory &amp; partnerships</option>
+                <option value="media">Media &amp; speaking requests</option>
+                <option value="general">General inquiry</option>
+              </select>
+            </label>
+
+            <label for="contact-message">
+              Message
+              <textarea id="contact-message" name="message" rows="6" required placeholder="Tell us what you’re looking for — membership tier questions, sponsorship goals, event ideas, or how to connect with members."></textarea>
+            </label>
+
+            <div class="contact-form__actions">
+              <button class="btn btn--coral" type="submit">Send message</button>
+            </div>
+          </form>
+        </div>
+
+        <aside class="contact-aside">
+          <div class="contact-aside__block">
+            <h3>Office</h3>
+            <p>
+              Business Leadership Council<br>
+              150 N. Michigan Avenue, Suite 2400<br>
+              Chicago, IL 60601
+            </p>
+          </div>
+
+          <div class="contact-aside__block">
+            <h3>Email</h3>
+            <p><a href="mailto:info@blcchicago.com">info@BLCchicago.com</a></p>
+          </div>
+
+          <div class="contact-aside__block">
+            <h3>Quick links</h3>
+            <ul class="contact-aside__links">
+              <li><a href="join.html">Become a member</a></li>
+              <li><a href="corporate-sponsorship.html">Corporate sponsorship</a></li>
+              <li><a href="events.html">Upcoming events</a></li>
+              <li><a href="directory.html">Public member directory</a></li>
+              <li><a href="leadership.html">BLC leadership</a></li>
+            </ul>
+          </div>
+
+          <div class="contact-aside__block contact-aside__block--members">
+            <h3>Already a member?</h3>
+            <p>Log in to connect directly with members through the private directory, or update your profile.</p>
+            <a class="btn btn--outline btn--sm" href="login.html">Member log in</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section class="section section--ink">
+      <div class="container join-band reveal">
+        <div>
+          <p class="section__eyebrow">Membership</p>
+          <h2>Celebrate strengths. Share insights. Plan for future success.</h2>
+          <p>As a member of the BLC you gain directory visibility, member connections, and a seat at Chicago’s premier Black business table.</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn--coral" href="join.html">View membership tiers</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <img src="assets/blc-logo.png" alt="BLC">
+      <p>© 2026 Business Leadership Council · Chicago</p>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a href="login.html">Member log in</a>
+      <a href="join.html">Become a Member</a>
+    </div>
+  </footer>
+
+  <nav class="proto-bar" aria-label="Prototype pages">
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="events.html">Events</a>
+    <a href="event.html">Lakeside Chat</a>
+    <a href="leadership.html">Leadership</a>
+    <a href="corporate-sponsorship.html">Sponsorship</a>
+    <a href="directory.html">Directory</a>
+    <a href="members-directory.html">Members</a>
+    <a href="member.html">Profile</a>
+    <a href="join.html">Join</a>
+    <a href="paywall.html">Paywall</a>
+    <a href="articles.html">Articles</a>
+    <a href="contact.html" aria-current="page">Contact</a>
+    <a href="admin-member-summary.html">Admin summary</a>
+  </nav>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

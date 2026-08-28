@@ -1,0 +1,86 @@
+/* BLC Membership Summary — wp-admin styles */
+
+.blc-ms-admin__grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
+	gap: 20px;
+	align-items: start;
+	margin-top: 16px;
+}
+
+.blc-ms-panel {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	padding: 16px 20px 20px;
+}
+
+.blc-ms-panel h2 {
+	margin-top: 0;
+	font-size: 16px;
+}
+
+.blc-ms-table-wrap {
+	overflow-x: auto;
+}
+
+.blc-ms-table {
+	min-width: 900px;
+	border-collapse: collapse;
+}
+
+.blc-ms-table thead th {
+	background: #306ca8;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.blc-ms-table tbody th {
+	text-align: left;
+}
+
+.blc-ms-table td,
+.blc-ms-table tbody th {
+	text-align: center;
+}
+
+.blc-ms-table tbody th[scope="row"] {
+	text-align: left;
+}
+
+.blc-ms-bundle {
+	color: #646970;
+	font-size: 12px;
+}
+
+.blc-ms-table__total th,
+.blc-ms-table__total td {
+	font-weight: 700;
+	background: #eef3f8;
+}
+
+.blc-ms-subscriber-row {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.blc-ms-remove-subscriber {
+	min-width: 32px;
+	padding-inline: 0;
+}
+
+.blc-ms-test-form {
+	margin-top: 8px;
+}
+
+.blc-ms-last-sent {
+	margin-top: 16px;
+}
+
+@media (max-width: 960px) {
+	.blc-ms-admin__grid {
+		grid-template-columns: 1fr;
+	}
+}
