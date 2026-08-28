@@ -8,7 +8,7 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Brand logo URL (PNG — footer, watermarks, customizer fallback).
+ * Brand logo URL (white SVG for dark chrome; customizer override when set).
  *
  * @return string
  */
@@ -21,7 +21,7 @@ function blc_get_logo_url() {
 		}
 	}
 
-	return BLC_THEME_URI . '/assets/images/blc-logo.png';
+	return BLC_THEME_URI . '/assets/images/blc-logo-header-white.svg';
 }
 
 /**
