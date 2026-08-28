@@ -2160,8 +2160,10 @@ body.admin-bar .site-header-group {
 }
 
 .site-footer img {
-  height: 1.35rem;
+  height: 1.5rem;
+  width: auto;
   opacity: 0.95;
+  display: block;
 }
 
 /* —— Prototype bar —— */
