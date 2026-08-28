@@ -1401,9 +1401,10 @@ p:last-child {
 /* —— Leadership —— */
 .leader-feature {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
+  grid-template-columns: repeat(2, minmax(0, 18rem));
+  gap: 1rem;
   margin-bottom: var(--blc-space-5);
+  justify-content: start;
 }
 
 .leader-card {
@@ -1435,7 +1436,20 @@ p:last-child {
 }
 
 .leader-card--featured .leader-card__photo {
-  min-height: 18rem;
+  aspect-ratio: 5 / 4;
+  min-height: 0;
+}
+
+.leader-card--featured .leader-card__name {
+  font-size: 1.1rem;
+}
+
+.leader-card--featured .leader-card__org {
+  font-size: 0.8125rem;
+}
+
+.leader-card--featured .leader-card__body {
+  padding: 0.9rem 1rem 1rem;
 }
 
 .leader-card__body {
@@ -1695,7 +1709,10 @@ p:last-child {
 }
 
 @media (max-width: 960px) {
-  .leader-feature,
+  .leader-feature {
+    grid-template-columns: repeat(2, minmax(0, 16rem));
+  }
+
   .leader-grid,
   .sponsor-tier-grid,
   .goals-grid,
@@ -1711,6 +1728,7 @@ p:last-child {
 }
 
 @media (max-width: 540px) {
+  .leader-feature,
   .leader-grid {
     grid-template-columns: 1fr;
   }
