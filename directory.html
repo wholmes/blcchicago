@@ -56,20 +56,27 @@
             <input type="search" name="q" placeholder="Search organizations" aria-label="Search organizations">
             <select name="tier" aria-label="Filter by membership tier">
               <option value="">All tiers</option>
+              <option>Board Member</option>
+              <option>Civic &amp; Community Leader</option>
               <option>Corporate Leader</option>
               <option>Established Leader</option>
-              <option>Vanguard Leader</option>
-              <option>Civic &amp; Community Leader</option>
+              <option>Strategic Partner</option>
               <option>Sustained Leader</option>
+              <option>Vanguard Leader</option>
             </select>
             <select name="industry" aria-label="Filter by industry">
               <option value="">All industries</option>
-              <option>Construction</option>
-              <option>Health</option>
-              <option>Communications</option>
-              <option>Non Profit</option>
-              <option>Financial Services</option>
               <option>Art &amp; Entertainment</option>
+              <option>Communications</option>
+              <option>Construction</option>
+              <option>Financial Services</option>
+              <option>General Services</option>
+              <option>Government</option>
+              <option>Health</option>
+              <option>Information Technology</option>
+              <option>Legal</option>
+              <option>Leisure &amp; Hospitality</option>
+              <option>Non Profit</option>
             </select>
           </form>
           <div class="directory-view-toggle" data-directory-view-toggle role="group" aria-label="Directory view">
@@ -78,7 +85,7 @@
           </div>
         </div>
 
-        <p class="directory-list__count" data-directory-count>6 organizations</p>
+        H2 organizations</p>
 
         <div class="directory-list" data-directory-list>
           <div class="directory-list__head" aria-hidden="true">
@@ -87,28 +94,48 @@
             <span>Company info</span>
           </div>
 
-          <div class="member-row" data-name="Clayco" data-tier="Corporate Leader" data-industry="Construction">
-            <a class="member-row__stretch" href="member.html" aria-label="View Clayco profile"></a>
-            <div class="member-row__logo"><span>Clayco</span></div>
+          
+          <div class="member-row" data-name="AARP Illinois" data-tier="Civic &amp; Community Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View AARP Illinois profile"></a>
+            <div class="member-row__logo"><span>AI</span></div>
             <div class="member-row__main">
-              <h2 class="member-row__name">Clayco</h2>
+              <h2 class="member-row__name">AARP Illinois</h2>
               <div class="member-row__meta">
-                <span class="tier-badge">Corporate Leader</span>
-                <span>Construction</span>
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Non Profit</span>
               </div>
             </div>
             <div class="member-row__contact">
               <ul class="contact-lines">
-                <li><span class="contact-lines__label">Tel</span><a href="tel:+13126580747">(312) 658-0747</a></li>
-                <li><span class="contact-lines__label">Email</span><a href="mailto:info@claycorp.com">info@claycorp.com</a></li>
-                <li><span class="contact-lines__label">Web</span><a href="https://www.claycorp.com">claycorp.com</a></li>
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+18664483613">(866) 448-3613</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:aarpil@aarp.org">aarpil@aarp.org</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.aarp.org/states/illinois" target="_blank" rel="noopener">aarp.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="ABC 7 Chicago" data-tier="Vanguard Leader" data-industry="Art &amp; Entertainment">
+            <a class="member-row__stretch" href="member.html" aria-label="View ABC 7 Chicago profile"></a>
+            <div class="member-row__logo"><span>A7C</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">ABC 7 Chicago</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+                <span>Art &amp; Entertainment</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13127507777">(312) 750-7777</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:ing@abc.com">ing@abc.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.abc7chicago.com" target="_blank" rel="noopener">abc7chicago.com</a></li>
               </ul>
             </div>
           </div>
 
           <div class="member-row" data-name="Advocate Health" data-tier="Corporate Leader" data-industry="Health">
             <a class="member-row__stretch" href="member.html" aria-label="View Advocate Health profile"></a>
-            <div class="member-row__logo"><span>Advocate</span></div>
+            <div class="member-row__logo"><span>AH</span></div>
             <div class="member-row__main">
               <h2 class="member-row__name">Advocate Health</h2>
               <div class="member-row__meta">
@@ -118,35 +145,37 @@
             </div>
             <div class="member-row__contact">
               <ul class="contact-lines">
-                <li><span class="contact-lines__label">Tel</span><a href="tel:+18473905900">(847) 390-5900</a></li>
-                <li><span class="contact-lines__label">Web</span><a href="#">advocatehealth.org</a></li>
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+18473905900">(847) 390-5900</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:amg-customerservice@advocatehealth.com">amg-customerservice@advocatehealth.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.advocatehealth.org" target="_blank" rel="noopener">advocatehealth.org</a></li>
               </ul>
             </div>
           </div>
 
-          <div class="member-row" data-name="ABC 7 Chicago" data-tier="Established Leader" data-industry="Art & Entertainment">
-            <a class="member-row__stretch" href="member.html" aria-label="View ABC 7 Chicago profile"></a>
-            <div class="member-row__logo"><span>ABC 7</span></div>
+          <div class="member-row" data-name="Airbnb, Inc." data-tier="Corporate Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Airbnb, Inc. profile"></a>
+            <div class="member-row__logo"><span>AI</span></div>
             <div class="member-row__main">
-              <h2 class="member-row__name">ABC 7 Chicago</h2>
+              <h2 class="member-row__name">Airbnb, Inc.</h2>
               <div class="member-row__meta">
-                <span class="tier-badge">Established Leader</span>
-                <span>Art &amp; Entertainment</span>
+                <span class="tier-badge">Corporate Leader</span>
+                <span>General Services</span>
               </div>
             </div>
             <div class="member-row__contact">
               <ul class="contact-lines">
-                <li><span class="contact-lines__label">Tel</span><a href="tel:+13127507777">(312) 750-7777</a></li>
-                <li><span class="contact-lines__label">Web</span><a href="#">abc7chicago.com</a></li>
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+14158005959">(415) 800-5959</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:jonathan.buckner@airbnb.com">jonathan.buckner@airbnb.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.airbnb.com/" target="_blank" rel="noopener">airbnb.com</a></li>
               </ul>
             </div>
           </div>
 
-          <div class="member-row" data-name="MG Media" data-tier="Vanguard Leader" data-industry="Communications">
-            <a class="member-row__stretch" href="member.html" aria-label="View MG Media profile"></a>
-            <div class="member-row__logo"><span>MG</span></div>
+          <div class="member-row" data-name="APS &amp; Associates" data-tier="Vanguard Leader" data-industry="Communications">
+            <a class="member-row__stretch" href="member.html" aria-label="View APS &amp; Associates profile"></a>
+            <div class="member-row__logo"><span>AA</span></div>
             <div class="member-row__main">
-              <h2 class="member-row__name">MG Media</h2>
+              <h2 class="member-row__name">APS &amp; Associates</h2>
               <div class="member-row__meta">
                 <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
                 <span>Communications</span>
@@ -154,12 +183,821 @@
             </div>
             <div class="member-row__contact">
               <ul class="contact-lines">
-                <li><span class="contact-lines__label">Web</span><a href="#">View website</a></li>
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13124652362">(312) 465-2362</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:info@apsandassociates.com">info@apsandassociates.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.apsandassociates.com" target="_blank" rel="noopener">apsandassociates.com</a></li>
               </ul>
             </div>
           </div>
 
-          <div class="member-row" data-name="Ladies of Virtue" data-tier="Civic & Community Leader" data-industry="Non Profit">
+          <div class="member-row" data-name="Argent BPO" data-tier="Corporate Leader" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Argent BPO profile"></a>
+            <div class="member-row__logo"><span>AB</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Argent BPO</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13126220083">(312) 622-0083</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:admin@argentbpo.com">admin@argentbpo.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www,argentbpo.com" target="_blank" rel="noopener">www,argentbpo.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Ariel Investments" data-tier="Board Member" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Ariel Investments profile"></a>
+            <div class="member-row__logo"><span>AI</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Ariel Investments</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Board Member</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13127260140">(312) 726-0140</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:email@arielinvestments.com">email@arielinvestments.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.arielinvestments.com" target="_blank" rel="noopener">arielinvestments.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Aris Singleton" data-tier="Vanguard Leader" data-industry="">
+            <a class="member-row__stretch" href="member.html" aria-label="View Aris Singleton profile"></a>
+            <div class="member-row__logo"><span>AS</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Aris Singleton</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Info</span><span>Profile on file</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Attucks Asset Management" data-tier="Established Leader" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Attucks Asset Management profile"></a>
+            <div class="member-row__logo"><span>AAM</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Attucks Asset Management</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="http://www.attucksfunds.com" target="_blank" rel="noopener">attucksfunds.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Avidity Technologies Inc" data-tier="Established Leader" data-industry="Communications">
+            <a class="member-row__stretch" href="member.html" aria-label="View Avidity Technologies Inc profile"></a>
+            <div class="member-row__logo"><span>ATI</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Avidity Technologies Inc</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Communications</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://aviditytechnologies.com" target="_blank" rel="noopener">aviditytechnologies.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Bally&#x27;s Chicago" data-tier="Corporate Leader" data-industry="Art &amp; Entertainment">
+            <a class="member-row__stretch" href="member.html" aria-label="View Bally&#x27;s Chicago profile"></a>
+            <div class="member-row__logo"><span>BSC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Bally&#x27;s Chicago</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>Art &amp; Entertainment</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+18888222559">(888) 822-2559</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:mediarelations@ballys.com">mediarelations@ballys.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://casinos.ballys.com/chicago" target="_blank" rel="noopener">casinos.ballys.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="BKL Architecture LLC" data-tier="Established Leader" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View BKL Architecture LLC profile"></a>
+            <div class="member-row__logo"><span>BAL</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">BKL Architecture LLC</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.bklarchitecture.com/" target="_blank" rel="noopener">bklarchitecture.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="BOWA Construction" data-tier="Established Leader" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View BOWA Construction profile"></a>
+            <div class="member-row__logo"><span>BC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">BOWA Construction</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.bowaconstruction.com" target="_blank" rel="noopener">bowaconstruction.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Brook Architecture, Inc." data-tier="Established Leader" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View Brook Architecture, Inc. profile"></a>
+            <div class="member-row__logo"><span>BAI</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Brook Architecture, Inc.</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.brookarchitecture.com" target="_blank" rel="noopener">brookarchitecture.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Calvin Brown" data-tier="Established Leader" data-industry="">
+            <a class="member-row__stretch" href="member.html" aria-label="View Calvin Brown profile"></a>
+            <div class="member-row__logo"><span>CB</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Calvin Brown</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://crystalclearwwjs.com" target="_blank" rel="noopener">crystalclearwwjs.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="CBRE, Inc." data-tier="Established Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View CBRE, Inc. profile"></a>
+            <div class="member-row__logo"><span>CI</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">CBRE, Inc.</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.cbre.com/" target="_blank" rel="noopener">cbre.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Changing Oasis" data-tier="Civic &amp; Community Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View Changing Oasis profile"></a>
+            <div class="member-row__logo"><span>CO</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Changing Oasis</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+17733091047">(773) 309-1047</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:changingoasis@gmail.com">changingoasis@gmail.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.changingoasis.org" target="_blank" rel="noopener">changingoasis.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Chicago Scholars Foundation" data-tier="Vanguard Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View Chicago Scholars Foundation profile"></a>
+            <div class="member-row__logo"><span>CSF</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Chicago Scholars Foundation</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.chicagoscholars.org" target="_blank" rel="noopener">chicagoscholars.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Chicago State University" data-tier="Established Leader" data-industry="">
+            <a class="member-row__stretch" href="member.html" aria-label="View Chicago State University profile"></a>
+            <div class="member-row__logo"><span>CSU</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Chicago State University</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Email</span><a href="mailto:info@kazmiadvisors.com">info@kazmiadvisors.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://csu.edu/" target="_blank" rel="noopener">csu.edu</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Chicago Transit Authority" data-tier="Civic &amp; Community Leader" data-industry="Government">
+            <a class="member-row__stretch" href="member.html" aria-label="View Chicago Transit Authority profile"></a>
+            <div class="member-row__logo"><span>CTA</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Chicago Transit Authority</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Government</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13126815022">(312) 681-5022</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:diversity@transitchicago.com">diversity@transitchicago.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.transitchicago.com" target="_blank" rel="noopener">transitchicago.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Chicago Urban League" data-tier="Civic &amp; Community Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View Chicago Urban League profile"></a>
+            <div class="member-row__logo"><span>CUL</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Chicago Urban League</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+17732855800">(773) 285-5800</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:culconnect@chiul.org">culconnect@chiul.org</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="http://www.chiul.org" target="_blank" rel="noopener">chiul.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Choose Chicago" data-tier="Civic &amp; Community Leader" data-industry="Leisure &amp; Hospitality">
+            <a class="member-row__stretch" href="member.html" aria-label="View Choose Chicago profile"></a>
+            <div class="member-row__logo"><span>CC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Choose Chicago</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Leisure &amp; Hospitality</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13125678500">(312) 567-8500</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.choosechicago.com" target="_blank" rel="noopener">choosechicago.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Clark Hill" data-tier="Established Leader" data-industry="Legal">
+            <a class="member-row__stretch" href="member.html" aria-label="View Clark Hill profile"></a>
+            <div class="member-row__logo"><span>CH</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Clark Hill</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Legal</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.clarkhill.com" target="_blank" rel="noopener">clarkhill.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Clayco" data-tier="Board Member" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View Clayco profile"></a>
+            <div class="member-row__logo"><span>CLAY</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Clayco</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Board Member</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13126580747">(312) 658-0747</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:info@claycorp.com">info@claycorp.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.claycorp.com" target="_blank" rel="noopener">claycorp.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Cleveland Avenue" data-tier="Established Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Cleveland Avenue profile"></a>
+            <div class="member-row__logo"><span>CA</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Cleveland Avenue</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.clevelandave.com" target="_blank" rel="noopener">clevelandave.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Comcast" data-tier="Corporate Leader" data-industry="Art &amp; Entertainment">
+            <a class="member-row__stretch" href="member.html" aria-label="View Comcast profile"></a>
+            <div class="member-row__logo"><span>COM</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Comcast</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>Art &amp; Entertainment</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+18009346489">(800) 934-6489</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:economic_development@comcast.com">economic_development@comcast.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.comcast.com" target="_blank" rel="noopener">comcast.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="ComEd" data-tier="Board Member" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View ComEd profile"></a>
+            <div class="member-row__logo"><span>COME</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">ComEd</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Board Member</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+16304372571">(630) 437-2571</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.comed.com" target="_blank" rel="noopener">comed.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Communities Empowered Through Construction" data-tier="Established Leader" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View Communities Empowered Through Construction profile"></a>
+            <div class="member-row__logo"><span>CET</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Communities Empowered Through Construction</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.communities4construction.com" target="_blank" rel="noopener">communities4construction.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Community Desk Chicago" data-tier="Civic &amp; Community Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View Community Desk Chicago profile"></a>
+            <div class="member-row__logo"><span>CDC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Community Desk Chicago</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13126386992">(312) 638-6992</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:hello@communitydeskchicago.org">hello@communitydeskchicago.org</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://communitydeskchicago.org" target="_blank" rel="noopener">communitydeskchicago.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Creative Planning" data-tier="Board Member" data-industry="">
+            <a class="member-row__stretch" href="member.html" aria-label="View Creative Planning profile"></a>
+            <div class="member-row__logo"><span>CP</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Creative Planning</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Board Member</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.creative planning.com" target="_blank" rel="noopener">creative planning.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Drakewell Kitchens &amp; Closets" data-tier="Established Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Drakewell Kitchens &amp; Closets profile"></a>
+            <div class="member-row__logo"><span>DKC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Drakewell Kitchens &amp; Closets</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.drakewellkitchens.com" target="_blank" rel="noopener">drakewellkitchens.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="EC-United" data-tier="Established Leader" data-industry="Information Technology">
+            <a class="member-row__stretch" href="member.html" aria-label="View EC-United profile"></a>
+            <div class="member-row__logo"><span>EU</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">EC-United</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Information Technology</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.ec-united.com" target="_blank" rel="noopener">ec-united.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Elzie Higginbottom" data-tier="Sustained Leader" data-industry="">
+            <a class="member-row__stretch" href="member.html" aria-label="View Elzie Higginbottom profile"></a>
+            <div class="member-row__logo"><span>EH</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Elzie Higginbottom</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Sustained Leader</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13128425500">(312) 842-5500</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Equal Hope" data-tier="Civic &amp; Community Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View Equal Hope profile"></a>
+            <div class="member-row__logo"><span>EH</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Equal Hope</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13129423368">(312) 942-3368</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:contact@equalhope.org">contact@equalhope.org</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.equalhope.org" target="_blank" rel="noopener">equalhope.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Fact Finders Group, Inc." data-tier="Sustained Leader" data-industry="Information Technology">
+            <a class="member-row__stretch" href="member.html" aria-label="View Fact Finders Group, Inc. profile"></a>
+            <div class="member-row__logo"><span>FFG</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Fact Finders Group, Inc.</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Sustained Leader</span>
+                <span>Information Technology</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+17082834200">(708) 283-4200</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.factfindersgroup.com" target="_blank" rel="noopener">factfindersgroup.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Fifth Third Bank" data-tier="Established Leader" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Fifth Third Bank profile"></a>
+            <div class="member-row__logo"><span>FTB</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Fifth Third Bank</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.53.com/" target="_blank" rel="noopener">53.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="First American Title Insurance" data-tier="Strategic Partner" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View First American Title Insurance profile"></a>
+            <div class="member-row__logo"><span>FAT</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">First American Title Insurance</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Strategic Partner</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.firstam.com" target="_blank" rel="noopener">firstam.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="FMC Energy" data-tier="Board Member" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View FMC Energy profile"></a>
+            <div class="member-row__logo"><span>FE</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">FMC Energy</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Board Member</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Info</span><span>Profile on file</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Gallery Guichard" data-tier="Vanguard Leader" data-industry="Art &amp; Entertainment">
+            <a class="member-row__stretch" href="member.html" aria-label="View Gallery Guichard profile"></a>
+            <div class="member-row__logo"><span>GG</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Gallery Guichard</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+                <span>Art &amp; Entertainment</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.galleryguichard.com" target="_blank" rel="noopener">galleryguichard.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Google" data-tier="Corporate Leader" data-industry="Information Technology">
+            <a class="member-row__stretch" href="member.html" aria-label="View Google profile"></a>
+            <div class="member-row__logo"><span>GOOG</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Google</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>Information Technology</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13128404100">(312) 840-4100</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:partnerships@google.com">partnerships@google.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.google.com" target="_blank" rel="noopener">google.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Grace Analytical Laboratory" data-tier="Established Leader" data-industry="Health">
+            <a class="member-row__stretch" href="member.html" aria-label="View Grace Analytical Laboratory profile"></a>
+            <div class="member-row__logo"><span>GAL</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Grace Analytical Laboratory</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Health</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.gracelabinc.com" target="_blank" rel="noopener">gracelabinc.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Halo Security Group" data-tier="Established Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Halo Security Group profile"></a>
+            <div class="member-row__logo"><span>HSG</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Halo Security Group</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.halosecuritygroup.com" target="_blank" rel="noopener">halosecuritygroup.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Illinois Public Health Institute" data-tier="Established Leader" data-industry="Health">
+            <a class="member-row__stretch" href="member.html" aria-label="View Illinois Public Health Institute profile"></a>
+            <div class="member-row__logo"><span>IPH</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Illinois Public Health Institute</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Health</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.Iphionline.org" target="_blank" rel="noopener">Iphionline.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Imagine Development Group" data-tier="Established Leader" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View Imagine Development Group profile"></a>
+            <div class="member-row__logo"><span>IDG</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Imagine Development Group</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.imaginedevelopmentgroup.com" target="_blank" rel="noopener">imaginedevelopmentgroup.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Joshua Davis" data-tier="Corporate Leader" data-industry="">
+            <a class="member-row__stretch" href="member.html" aria-label="View Joshua Davis profile"></a>
+            <div class="member-row__logo"><span>JD</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Joshua Davis</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Info</span><span>Profile on file</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="JP Morgan Chase" data-tier="Corporate Leader" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View JP Morgan Chase profile"></a>
+            <div class="member-row__logo"><span>JMC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">JP Morgan Chase</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13127325177">(312) 732-5177</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:contact.us@jpmchase.com">contact.us@jpmchase.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.jpmorgan.com" target="_blank" rel="noopener">jpmorgan.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="JP Morgan Private Bank" data-tier="Corporate Leader" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View JP Morgan Private Bank profile"></a>
+            <div class="member-row__logo"><span>JMP</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">JP Morgan Private Bank</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13127325177">(312) 732-5177</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://privatebank.jpmorgan.com" target="_blank" rel="noopener">privatebank.jpmorgan.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Juan &amp; Only LLC" data-tier="Established Leader" data-industry="Art &amp; Entertainment">
+            <a class="member-row__stretch" href="member.html" aria-label="View Juan &amp; Only LLC profile"></a>
+            <div class="member-row__logo"><span>JOL</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Juan &amp; Only LLC</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Art &amp; Entertainment</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.juanandonlyevents.com" target="_blank" rel="noopener">juanandonlyevents.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Just Act Partners" data-tier="Established Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Just Act Partners profile"></a>
+            <div class="member-row__logo"><span>JAP</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Just Act Partners</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.justactpartners.com" target="_blank" rel="noopener">justactpartners.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Kates Detective Agency" data-tier="Sustained Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Kates Detective Agency profile"></a>
+            <div class="member-row__logo"><span>KDA</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Kates Detective Agency</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Sustained Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="http://katesdetectiveagency.com" target="_blank" rel="noopener">katesdetectiveagency.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Kazmi Advisors, LLC" data-tier="Vanguard Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Kazmi Advisors, LLC profile"></a>
+            <div class="member-row__logo"><span>KAL</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Kazmi Advisors, LLC</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+17733775358">(773) 377-5358</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:info@kazmiadvisors.com">info@kazmiadvisors.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="http://www.kazmiadvisors.com" target="_blank" rel="noopener">kazmiadvisors.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Ladies of Virtue" data-tier="Civic &amp; Community Leader" data-industry="Non Profit">
             <a class="member-row__stretch" href="member.html" aria-label="View Ladies of Virtue profile"></a>
             <div class="member-row__logo"><span>LOV</span></div>
             <div class="member-row__main">
@@ -171,27 +1009,898 @@
             </div>
             <div class="member-row__contact">
               <ul class="contact-lines">
-                <li><span class="contact-lines__label">Focus</span><span>Mentoring · Leadership development</span></li>
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+18775657121">(877) 565-7121</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:info@lovchicago.org">info@lovchicago.org</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.lovchicago.org" target="_blank" rel="noopener">lovchicago.org</a></li>
               </ul>
             </div>
           </div>
 
-          <div class="member-row" data-name="AARP Illinois" data-tier="Sustained Leader" data-industry="Non Profit">
-            <a class="member-row__stretch" href="member.html" aria-label="View AARP Illinois profile"></a>
-            <div class="member-row__logo"><span>AARP</span></div>
+          <div class="member-row" data-name="Leadership Greater Chicago" data-tier="Established Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View Leadership Greater Chicago profile"></a>
+            <div class="member-row__logo"><span>LGC</span></div>
             <div class="member-row__main">
-              <h2 class="member-row__name">AARP Illinois</h2>
+              <h2 class="member-row__name">Leadership Greater Chicago</h2>
               <div class="member-row__meta">
-                <span class="tier-badge">Sustained Leader</span>
+                <span class="tier-badge">Established Leader</span>
                 <span>Non Profit</span>
               </div>
             </div>
             <div class="member-row__contact">
               <ul class="contact-lines">
-                <li><span class="contact-lines__label">Web</span><a href="#">aarp.org</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.lgcchicago.org" target="_blank" rel="noopener">lgcchicago.org</a></li>
               </ul>
             </div>
           </div>
+
+          <div class="member-row" data-name="Leon Mckenzie" data-tier="Established Leader" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Leon Mckenzie profile"></a>
+            <div class="member-row__logo"><span>LM</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Leon Mckenzie</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.dciia.org" target="_blank" rel="noopener">dciia.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Loop Capital Markets" data-tier="Board Member" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Loop Capital Markets profile"></a>
+            <div class="member-row__logo"><span>LCM</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Loop Capital Markets</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Board Member</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13129134900">(312) 913-4900</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:info@loopcapital.com">info@loopcapital.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.loopcapital.com" target="_blank" rel="noopener">loopcapital.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Love, Unity &amp; Values Institute" data-tier="Civic &amp; Community Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View Love, Unity &amp; Values Institute profile"></a>
+            <div class="member-row__logo"><span>LUV</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Love, Unity &amp; Values Institute</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+17736245200">(773) 624-5200</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:admin@luvinstitute.org">admin@luvinstitute.org</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.luvinstitute.org" target="_blank" rel="noopener">luvinstitute.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Mesirow" data-tier="Corporate Leader" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Mesirow profile"></a>
+            <div class="member-row__logo"><span>MES</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Mesirow</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13125956000">312-595-6000</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:inquiries@mesirow.com">inquiries@mesirow.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.mesirow.com" target="_blank" rel="noopener">mesirow.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="MG Media" data-tier="Civic &amp; Community Leader" data-industry="Communications">
+            <a class="member-row__stretch" href="member.html" aria-label="View MG Media profile"></a>
+            <div class="member-row__logo"><span>MM</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">MG Media</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Communications</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Focus</span><span>Marketing &amp; Promotional Services</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Midway Broadcasting Corporation" data-tier="Board Member" data-industry="Art &amp; Entertainment">
+            <a class="member-row__stretch" href="member.html" aria-label="View Midway Broadcasting Corporation profile"></a>
+            <div class="member-row__logo"><span>MBC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Midway Broadcasting Corporation</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Board Member</span>
+                <span>Art &amp; Entertainment</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+17732476200">(773) 247-6200</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:info@midwaybroadcasting.com">info@midwaybroadcasting.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.midwaybroadcasting.com" target="_blank" rel="noopener">midwaybroadcasting.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Northwestern Mutual" data-tier="Vanguard Leader" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Northwestern Mutual profile"></a>
+            <div class="member-row__logo"><span>NM</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Northwestern Mutual</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.northwesternmutual.com" target="_blank" rel="noopener">northwesternmutual.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Office of Cook County Clerk" data-tier="Civic &amp; Community Leader" data-industry="">
+            <a class="member-row__stretch" href="member.html" aria-label="View Office of Cook County Clerk profile"></a>
+            <div class="member-row__logo"><span>OOC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Office of Cook County Clerk</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.cookcountyclerkil.gov" target="_blank" rel="noopener">cookcountyclerkil.gov</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Office of the Cook County Clerk" data-tier="Civic &amp; Community Leader" data-industry="Government">
+            <a class="member-row__stretch" href="member.html" aria-label="View Office of the Cook County Clerk profile"></a>
+            <div class="member-row__logo"><span>OOT</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Office of the Cook County Clerk</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Government</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13126035656">(312) 603-5656</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.cookcountyclerkil.gov" target="_blank" rel="noopener">cookcountyclerkil.gov</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Omnicom Media Group" data-tier="Established Leader" data-industry="Art &amp; Entertainment">
+            <a class="member-row__stretch" href="member.html" aria-label="View Omnicom Media Group profile"></a>
+            <div class="member-row__logo"><span>OMG</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Omnicom Media Group</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Art &amp; Entertainment</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="http://www.omnicommedia.com" target="_blank" rel="noopener">omnicommedia.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Onyx Strategic Partners LLC" data-tier="Established Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Onyx Strategic Partners LLC profile"></a>
+            <div class="member-row__logo"><span>OSP</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Onyx Strategic Partners LLC</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+17738865002">(773) 886-5002</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:Claude.robinsononyxsp@outlook.com">Claude.robinsononyxsp@outlook.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.onyxstrategicpartners.com" target="_blank" rel="noopener">onyxstrategicpartners.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Opulentia LLC" data-tier="Vanguard Leader" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Opulentia LLC profile"></a>
+            <div class="member-row__logo"><span>OL</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Opulentia LLC</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.opulentia.net/" target="_blank" rel="noopener">opulentia.net</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="P.R.E.T.T.Y. Inc" data-tier="Civic &amp; Community Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View P.R.E.T.T.Y. Inc profile"></a>
+            <div class="member-row__logo"><span>PRE</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">P.R.E.T.T.Y. Inc</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13128103759">(312) 810-3759</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:Info@prettyinc.org">Info@prettyinc.org</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.realprettygirls.org" target="_blank" rel="noopener">realprettygirls.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Pinpoint Precision Engineering" data-tier="Vanguard Leader" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View Pinpoint Precision Engineering profile"></a>
+            <div class="member-row__logo"><span>PPE</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Pinpoint Precision Engineering</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.pinpointpe.com" target="_blank" rel="noopener">pinpointpe.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Polar Group, LLC" data-tier="Vanguard Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Polar Group, LLC profile"></a>
+            <div class="member-row__logo"><span>PGL</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Polar Group, LLC</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.polargroupllc.com" target="_blank" rel="noopener">polargroupllc.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Powerful Penny LLC" data-tier="Established Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Powerful Penny LLC profile"></a>
+            <div class="member-row__logo"><span>PPL</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Powerful Penny LLC</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.powerfulpenny.com" target="_blank" rel="noopener">powerfulpenny.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Powers &amp; Sons Construction" data-tier="Established Leader" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View Powers &amp; Sons Construction profile"></a>
+            <div class="member-row__logo"><span>PSC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Powers &amp; Sons Construction</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.powersandsons.com" target="_blank" rel="noopener">powersandsons.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Powers &amp; Sons Construction Company, Inc." data-tier="Sustained Leader" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View Powers &amp; Sons Construction Company, Inc. profile"></a>
+            <div class="member-row__logo"><span>PSC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Powers &amp; Sons Construction Company, Inc.</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Sustained Leader</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+17735363100">(773) 536-3100</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.powersandsons.com" target="_blank" rel="noopener">powersandsons.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Purpose Brand" data-tier="Established Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Purpose Brand profile"></a>
+            <div class="member-row__logo"><span>PB</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Purpose Brand</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.purposebrand.com" target="_blank" rel="noopener">purposebrand.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Quant16" data-tier="Board Member" data-industry="Information Technology">
+            <a class="member-row__stretch" href="member.html" aria-label="View Quant16 profile"></a>
+            <div class="member-row__logo"><span>QUA</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Quant16</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Board Member</span>
+                <span>Information Technology</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13122360903">(312) 236-0903</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:info@quant16.com">info@quant16.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.quant16.com" target="_blank" rel="noopener">quant16.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Rainbow PUSH Coalition" data-tier="Corporate Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View Rainbow PUSH Coalition profile"></a>
+            <div class="member-row__logo"><span>RPC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Rainbow PUSH Coalition</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+17733733366">(773) 373-3366</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:dterry@rainbowpush.org">dterry@rainbowpush.org</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.rainbowpush.org" target="_blank" rel="noopener">rainbowpush.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Riley Safer Holmes &amp; Cancila, LLP" data-tier="Board Member" data-industry="Legal">
+            <a class="member-row__stretch" href="member.html" aria-label="View Riley Safer Holmes &amp; Cancila, LLP profile"></a>
+            <div class="member-row__logo"><span>RSH</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Riley Safer Holmes &amp; Cancila, LLP</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Board Member</span>
+                <span>Legal</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13124718700">(312) 471-8700</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:info@rshc-law.com">info@rshc-law.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.rshc-law.com" target="_blank" rel="noopener">rshc-law.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Rise Strategy Group" data-tier="Vanguard Leader" data-industry="Communications">
+            <a class="member-row__stretch" href="member.html" aria-label="View Rise Strategy Group profile"></a>
+            <div class="member-row__logo"><span>RSG</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Rise Strategy Group</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+                <span>Communications</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.risestrategygroup.com/" target="_blank" rel="noopener">risestrategygroup.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Robinson Hill" data-tier="Established Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Robinson Hill profile"></a>
+            <div class="member-row__logo"><span>RH</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Robinson Hill</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.robinsonhillusa.com" target="_blank" rel="noopener">robinsonhillusa.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Rush University Medical Center" data-tier="Civic &amp; Community Leader" data-industry="Health">
+            <a class="member-row__stretch" href="member.html" aria-label="View Rush University Medical Center profile"></a>
+            <div class="member-row__logo"><span>RUM</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Rush University Medical Center</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Health</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13129425000">(312) 942-5000</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:patient_relations@rush.edu">patient_relations@rush.edu</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.rush.edu" target="_blank" rel="noopener">rush.edu</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="SDI Presence LLC" data-tier="Established Leader" data-industry="Information Technology">
+            <a class="member-row__stretch" href="member.html" aria-label="View SDI Presence LLC profile"></a>
+            <div class="member-row__logo"><span>SPL</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">SDI Presence LLC</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Information Technology</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.sdipresence.com" target="_blank" rel="noopener">sdipresence.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Show Strategy" data-tier="Corporate Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Show Strategy profile"></a>
+            <div class="member-row__logo"><span>SS</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Show Strategy</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+18723133114">(872) 313-3114</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:info@showstrategy.com">info@showstrategy.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.showstrategy.com" target="_blank" rel="noopener">showstrategy.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Taft Stettinius &amp; Hollister LLP" data-tier="Established Leader" data-industry="Legal">
+            <a class="member-row__stretch" href="member.html" aria-label="View Taft Stettinius &amp; Hollister LLP profile"></a>
+            <div class="member-row__logo"><span>TSH</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Taft Stettinius &amp; Hollister LLP</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Legal</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.taftlaw.com" target="_blank" rel="noopener">taftlaw.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Taylor Electric Company" data-tier="Established Leader" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View Taylor Electric Company profile"></a>
+            <div class="member-row__logo"><span>TEC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Taylor Electric Company</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.taylorelectricco.com" target="_blank" rel="noopener">taylorelectricco.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Tequity Partners" data-tier="Established Leader" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View Tequity Partners profile"></a>
+            <div class="member-row__logo"><span>TP</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Tequity Partners</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.tequitypartners.net" target="_blank" rel="noopener">tequitypartners.net</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="tgin Foundation" data-tier="Civic &amp; Community Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View tgin Foundation profile"></a>
+            <div class="member-row__logo"><span>TF</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">tgin Foundation</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13126249960">(312) 624-9960</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:foundation@tginnatural.com">foundation@tginnatural.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.tginfoundation.org" target="_blank" rel="noopener">tginfoundation.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="The Evolution Collective LLC" data-tier="Civic &amp; Community Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View The Evolution Collective LLC profile"></a>
+            <div class="member-row__logo"><span>TEC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">The Evolution Collective LLC</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Info</span><span>Profile on file</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="The Kindness Campaign" data-tier="Civic &amp; Community Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View The Kindness Campaign profile"></a>
+            <div class="member-row__logo"><span>TKC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">The Kindness Campaign</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Email</span><a href="mailto:chris@kindnesseveryday.org">chris@kindnesseveryday.org</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.kindnesseveryday.org" target="_blank" rel="noopener">kindnesseveryday.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="The Mercer Insurance Agency" data-tier="Vanguard Leader" data-industry="">
+            <a class="member-row__stretch" href="member.html" aria-label="View The Mercer Insurance Agency profile"></a>
+            <div class="member-row__logo"><span>TMI</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">The Mercer Insurance Agency</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Info</span><span>Profile on file</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="The Vistria Group" data-tier="Sustained Leader" data-industry="Financial Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View The Vistria Group profile"></a>
+            <div class="member-row__logo"><span>TVG</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">The Vistria Group</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Sustained Leader</span>
+                <span>Financial Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13126261100">(312) 626-1100</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.vistria.com" target="_blank" rel="noopener">vistria.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="The Will Group" data-tier="Corporate Leader" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View The Will Group profile"></a>
+            <div class="member-row__logo"><span>TWG</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">The Will Group</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+16304620230">(630) 462-0230</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://thewillgroup.com" target="_blank" rel="noopener">thewillgroup.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Thresholds" data-tier="Civic &amp; Community Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View Thresholds profile"></a>
+            <div class="member-row__logo"><span>THR</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Thresholds</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+17735725500">(773) 572-5500</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:thresholds@thresholds.org">thresholds@thresholds.org</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.thresholds.org" target="_blank" rel="noopener">thresholds.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="UJAMAA Construction Inc" data-tier="Established Leader" data-industry="">
+            <a class="member-row__stretch" href="member.html" aria-label="View UJAMAA Construction Inc profile"></a>
+            <div class="member-row__logo"><span>UCI</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">UJAMAA Construction Inc</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://ujamaaconstruction.com/" target="_blank" rel="noopener">ujamaaconstruction.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Unison Consulting" data-tier="Established Leader" data-industry="Construction">
+            <a class="member-row__stretch" href="member.html" aria-label="View Unison Consulting profile"></a>
+            <div class="member-row__logo"><span>UC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Unison Consulting</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Construction</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.unison-ucg.com" target="_blank" rel="noopener">unison-ucg.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="United Airlines" data-tier="Corporate Leader" data-industry="General Services">
+            <a class="member-row__stretch" href="member.html" aria-label="View United Airlines profile"></a>
+            <div class="member-row__logo"><span>UA</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">United Airlines</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>General Services</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+18008648331">(800) 864-8331</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:mailto:media.relations@united.com">mailto:media.relations@united.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.united.com" target="_blank" rel="noopener">united.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="United Way of Metro Chicago" data-tier="Vanguard Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View United Way of Metro Chicago profile"></a>
+            <div class="member-row__logo"><span>UWO</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">United Way of Metro Chicago</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge tier-badge--vanguard">Vanguard Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.liveunitedchicago.org" target="_blank" rel="noopener">liveunitedchicago.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="WDB Marketing" data-tier="Established Leader" data-industry="Communications">
+            <a class="member-row__stretch" href="member.html" aria-label="View WDB Marketing profile"></a>
+            <div class="member-row__logo"><span>WM</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">WDB Marketing</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Communications</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+17085273090">(708) 527-3090</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:orders@wdbmarketing.com">orders@wdbmarketing.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.wdbmarketing.com" target="_blank" rel="noopener">wdbmarketing.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Wendell Dallas" data-tier="Sustained Leader" data-industry="">
+            <a class="member-row__stretch" href="member.html" aria-label="View Wendell Dallas profile"></a>
+            <div class="member-row__logo"><span>WD</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Wendell Dallas</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Sustained Leader</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+18886426748">1-888-642-6748</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="WES Health System" data-tier="Established Leader" data-industry="Health">
+            <a class="member-row__stretch" href="member.html" aria-label="View WES Health System profile"></a>
+            <div class="member-row__logo"><span>WHS</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">WES Health System</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Health</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.drwes.org" target="_blank" rel="noopener">drwes.org</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="William Everett" data-tier="Corporate Leader" data-industry="Information Technology">
+            <a class="member-row__stretch" href="member.html" aria-label="View William Everett profile"></a>
+            <div class="member-row__logo"><span>WE</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">William Everett</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>Information Technology</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13125645680">(312) 564-5680</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:contact@wegrp.com">contact@wegrp.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://www.wegrp.com" target="_blank" rel="noopener">wegrp.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="World Business Chicago" data-tier="Corporate Leader" data-industry="Non Profit">
+            <a class="member-row__stretch" href="member.html" aria-label="View World Business Chicago profile"></a>
+            <div class="member-row__logo"><span>WBC</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">World Business Chicago</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Corporate Leader</span>
+                <span>Non Profit</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Tel</span><a href="tel:+13125530500">(312) 553-0500</a></li>
+              <li><span class="contact-lines__label">Email</span><a href="mailto:wbc@worldbusinesschicago.com">wbc@worldbusinesschicago.com</a></li>
+              <li><span class="contact-lines__label">Web</span><a href="https://worldbusinesschicago.com/" target="_blank" rel="noopener">worldbusinesschicago.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Worsek &amp; Vihon LLP" data-tier="Established Leader" data-industry="Legal">
+            <a class="member-row__stretch" href="member.html" aria-label="View Worsek &amp; Vihon LLP profile"></a>
+            <div class="member-row__logo"><span>WVL</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Worsek &amp; Vihon LLP</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Established Leader</span>
+                <span>Legal</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.wvproptax.com" target="_blank" rel="noopener">wvproptax.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Ytasha Womack" data-tier="Civic &amp; Community Leader" data-industry="Art &amp; Entertainment">
+            <a class="member-row__stretch" href="member.html" aria-label="View Ytasha Womack profile"></a>
+            <div class="member-row__logo"><span>YW</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Ytasha Womack</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Civic &amp; Community Leader</span>
+                <span>Art &amp; Entertainment</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Info</span><span>Profile on file</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="member-row" data-name="Zuber Lawler LLP" data-tier="Sustained Leader" data-industry="Legal">
+            <a class="member-row__stretch" href="member.html" aria-label="View Zuber Lawler LLP profile"></a>
+            <div class="member-row__logo"><span>ZLL</span></div>
+            <div class="member-row__main">
+              <h2 class="member-row__name">Zuber Lawler LLP</h2>
+              <div class="member-row__meta">
+                <span class="tier-badge">Sustained Leader</span>
+                <span>Legal</span>
+              </div>
+            </div>
+            <div class="member-row__contact">
+              <ul class="contact-lines">
+              <li><span class="contact-lines__label">Web</span><a href="https://www.zuberlawler.com" target="_blank" rel="noopener">zuberlawler.com</a></li>
+              </ul>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
