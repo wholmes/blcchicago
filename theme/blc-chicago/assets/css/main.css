@@ -1436,7 +1436,7 @@ body.admin-bar .site-header-group {
 /* —— Leadership —— */
 .leader-feature {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 22rem));
+  grid-template-columns: repeat(2, minmax(0, 18rem));
   gap: 1rem;
   margin-bottom: var(--blc-space-5);
   justify-content: start;
